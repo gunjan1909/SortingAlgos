@@ -1,8 +1,14 @@
 Link to video: https://youtu.be/UdO2NeHB46c
 Link to video notes: https://drive.google.com/file/d/1WtwEvIvqKOUR0Ys0S_SLPjfWzcT-W4_X/view
 
+Source: GFG
+
 Selection Sort Algorithm: 
 The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a single array.
 
-Time Complexity: The time complexity of Selection Sort is O(N^2)
+Time Complexity: The time complexity of Selection Sort is O(N^2) both best case and worst case.
 Auxiliary Space: O(1)
+
+Use case for selection sort: Use when array size is small.
+
+Stability: The default implementation is not stable. However it can be made stable. 

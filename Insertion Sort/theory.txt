@@ -1,0 +1,13 @@
+Link to video: 
+Link to video notes: 
+
+Source: GFG
+
+Insertion Sort Algorithm: 
+Insertion sort is a simple sorting algorithm that works similar to the way you sort playing cards in your hands. The array is virtually split into a sorted and an unsorted part. Values from the unsorted part are picked and placed at the correct position in the sorted part.
+Time Complexity: O(N^2) 
+Auxiliary Space: O(1)
+
+We can use binary search to reduce the number of comparisons in normal insertion sort. Binary Insertion Sort uses binary search to find the proper location to insert the selected item at each iteration. In normal insertion, sorting takes O(i) (at ith iteration) in worst case. We can reduce it to O(logi) by using binary search. The algorithm, as a whole, still has a running worst case running time of O(n^2) because of the series of swaps required for each insertion
+
+Insertion Sort is stable

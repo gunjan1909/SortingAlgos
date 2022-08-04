@@ -14,6 +14,12 @@ void selectionSort(vector<int> &arr, int n)
       swap(arr[i], arr[min]);
    }
 }
+void printArray(vector<int> arr, int size)
+{
+   for (int i = 0; i < size; i++)
+      cout << arr[i] << " ";
+   cout << endl;
+}
 
 int main()
 {
@@ -28,9 +34,6 @@ int main()
    }
    selectionSort(arr, n);
    cout << "The sorted array is: ";
-   for (int i = 0; i < n; i++)
-   {
-      cout << arr[i] << " ";
-   }
+   printArray(arr, n);
    return 0;
 }
