@@ -24,7 +24,6 @@ void printArray(vector<int> arr, int size)
       cout << arr[i] << " ";
    cout << endl;
 }
-
 int main()
 {
    int n;

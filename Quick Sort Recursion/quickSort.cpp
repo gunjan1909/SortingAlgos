@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int partition(vector<int> &arr, int s, int e)
 {
    int pivot = arr[s];
@@ -12,11 +11,9 @@ int partition(vector<int> &arr, int s, int e)
          cnt++;
       }
    }
-
    // place pivot ar right position
    int pivotIndex = s + cnt;
    swap(arr[s], arr[pivotIndex]);
-
    // maintain smaller and larger elements ie left and right part of the pivot
    int i = s, j = e;
    while (i < pivotIndex && j > pivotIndex)
@@ -36,15 +33,12 @@ int partition(vector<int> &arr, int s, int e)
    }
    return pivotIndex;
 }
-
 void quickSort(vector<int> &arr, int s, int e)
 {
    if (s >= e)
       return;
-
    // partition
    int p = partition(arr, s, e);
-
    // left part
    quickSort(arr, s, p - 1);
    // right part
@@ -60,7 +54,6 @@ void printArray(vector<int> &arr, int n)
 // Main function
 int main()
 {
-
    vector<int> arr;
    cout << " Enter the array elements : ";
    int n;
