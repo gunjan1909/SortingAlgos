@@ -1,4 +1,4 @@
-## array sorting algorithms
+## Array Aorting Algorithms in C++
 
 - Selection Sort
 - Bubble Sort
